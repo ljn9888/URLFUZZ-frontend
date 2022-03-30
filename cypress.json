@@ -1,0 +1,5 @@
+{
+    "projectId": "j348vt",
+    "ignoreTestFiles": "**/examples/*.js",
+    "screenshotOnRunFailure": false
+}

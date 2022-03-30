@@ -1,0 +1,314 @@
+
+.btn-warning{
+    background-color: #ffa500;
+    border-color: #ffa500;
+}
+.navbar .navbar-header{
+    margin-left: 20px;
+}
+.navbar .navbar-brand{
+    color: #ffa500;
+}
+.navbar-nav{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.index-back{
+    background: no-repeat center center fixed;
+    background-image: url(../../src/1.jpg);
+    background-size: cover;
+}
+.index-container{
+    color: #fff;
+    padding: 0 30%;
+    margin-top: 180px;
+    text-align: center;
+}
+
+.pl-13p {
+    padding-left: 13px;
+}
+.pl-17p {
+    padding-left: 17px;
+}
+ 
+.form-group .ng-hide {
+    display: block!important;
+    visibility: hidden;
+}
+.form-control-eye {
+    position: absolute;
+    top: 7.0rem;
+    right: 2.8rem;
+    z-index: 2;
+    display: block;   
+    text-align: center;
+    cursor: pointer;
+}
+.s-eye {
+    top: 15.9rem;
+    right: 2.6rem;
+}
+.p-eye {
+    top: 0.6rem;
+    right: 0.6rem;
+}
+
+.empty-star{
+    overflow: hidden; width: 19px; height: 19px; 
+    background-image: url(../../src/empty_star.png);
+    display: inline-block;
+    line-height: inherit;
+    vertical-align: top;
+    margin-top: 2px;
+}
+
+.full-star {
+    overflow: hidden; width: 19px; height: 19px;
+    background-image: url(../../src/full_star.png); 
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+}
+
+.tip0 {
+    margin: 12px !important;
+    border-radius: 8px !important;
+    border: none !important;
+    outline: none !important;
+    padding: 0.375rem 1.15rem;
+    font-weight:500;
+    font-size:middle;
+    color: #1e9b12;
+    background-color: #d6fcf2;
+}
+
+.tip2 {
+    margin-right: 18px !important;
+    margin-top: 10px !important;
+    border-radius: 15px !important;
+    border: none !important;
+    outline: none !important;
+    padding: 0.675rem 2rem;
+    font-weight:500;
+    font-size:x-large;
+    color: #f2f5f1;
+    background-color: #f84d4d;
+}
+
+.scrollbar-deep::-webkit-scrollbar {
+    width: 9px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar-deep::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #b8b6bd;
+}
+
+.text-scrollbar {
+    overflow-y: auto;
+    height: 200px;
+}
+
+.list-scrollbar {
+    overflow-y: auto;
+    height: 75vh;
+}
+
+.profile-scrollbar {
+    overflow-y: auto;
+    height: 70vh;
+}
+
+.bc-grey{
+    background-color:rgb(248, 248, 248);
+}
+
+
+.selectbox { 
+    height: 48px; 
+    width: 95%; 
+    clear: both; 
+    margin: auto; 
+    background:#fff;
+}
+.selediv { 
+    width: 25%; 
+    height: 35px; 
+    float: left; 
+    position: relative;
+}
+.selemenu { 
+    width: 90%; 
+    height: 35px; 
+    font-size: 15px; 
+    line-height: 35px; 
+    background:#fff; 
+    color:#666; 
+    text-indent: 10px; 
+    border: none; 
+    background: url(../../src/xiala.png) 35px no-repeat #fff; 
+    background-position: 100% center;
+}
+
+.small-list span { 
+    display: block; 
+    clear: both; 
+    cursor: pointer;
+    font-size: 13px;
+}
+.small-list span:hover { 
+    background:#eee;
+}
+.small-list { 
+    display: none; 
+    line-height: 35px; 
+    background:#fff; 
+    text-indent: 10px; 
+    font-size: 12px; 
+    position: absolute; 
+    left: 0; 
+    top: 35px; 
+    width: 100%; 
+    box-shadow: 0px 5px 5px #ccc;
+}
+
+.big-list{ 
+    width: 400%; 
+    box-shadow: 0px 5px 5px #ccc; 
+    font-size: 14px; color:#666; 
+    padding: 20px 40px; 
+    position: absolute; 
+    top: 35px; 
+    left: 0; 
+    background:#fff; 
+    border-bottom: 1px solid #f6f6f6; 
+    display: none;
+}
+.big-list ul { 
+    float:left; 
+    width: 100%; 
+    line-height: 54px;
+} 
+.big-list ul li { 
+    float: left; 
+    cursor: pointer;
+}
+.big-list ul li:hover { 
+    color:#ff4400;
+}
+.big-list .region-list li { 
+    width: 20%;
+}
+.big-list .city-list li { 
+    width: 20%;
+}
+.big-list .label { 
+    width: 100px; 
+    float: left; 
+    line-height: 54px;
+}
+.big-list .active { 
+    color:#ff4400;
+}
+ul,li { 
+    list-style: none;
+}
+.choose-reigon { 
+    width: 100%; 
+    overflow: hidden; 
+    clear: both;
+}
+
+.time-list{ 
+    width: 300%; 
+    box-shadow: 0px 5px 5px #ccc; 
+    font-size: 14px; color:#666; 
+    padding: 20px 40px; 
+    position: absolute; 
+    top: 35px; 
+    left: 0; 
+    background:#fff; 
+    border-bottom: 1px solid #f6f6f6; 
+    display: none;
+}
+.full button span {
+    background-color: limegreen;
+    border-radius: 32px;
+    color: black;
+}
+.partially button span {
+    background-color: orange;
+    border-radius: 32px;
+    color: black;
+}
+
+.price-list{ 
+    width: 200%; 
+    box-shadow: 0px 5px 5px #ccc; 
+    font-size: 14px; color:#666; 
+    padding: 20px 40px; 
+    position: absolute; 
+    top: 35px; 
+    left: 0; 
+    background:#fff; 
+    border-bottom: 1px solid #f6f6f6; 
+    display: none;
+}
+
+.mapimage {
+    border-radius: 3px;
+    box-shadow:rgba(0,0,0,0.15) 0 0 8px;
+    background:#FBFBFB;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.like { 
+    font-size: 25px;  
+    color:#ccc; 
+    cursor: pointer;
+}
+.cs {
+    color:#ff4400;
+}
+.acti{
+    background-color: #fff;
+    box-shadow: none;
+    color: #ff4400;
+}
+
+.profile-container{
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+.fa-map-maker{
+    padding-left: 2.8px;
+}
+
+.table-image{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.preview-image{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+}
+.favor-image{
+    display: block;
+    max-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
