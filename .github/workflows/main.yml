@@ -1,0 +1,21 @@
+name: Continuous Deployment
+on:
+  push:
+    branches:    
+      - master
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+            - uses: actions/checkout@v2
+
+            - name: AWS SSM Send Command
+              uses: peterkimzz/aws-ssm-send-command@1.0.1
+              with:
+                  aws-access-key-id: AKIA4N3YU7VSU6OUTO6G
+                  aws-secret-access-key: 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
+                  aws-region: us-east-1
+                  instance-ids: i-0695f155347c85262
+                  comment: Deploy the master branch
+                  working-directory: /home/ubuntu/personal_websites
+                  command: /bin/sh ./deploy.sh
