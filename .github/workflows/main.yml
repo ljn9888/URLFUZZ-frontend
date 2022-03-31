@@ -12,10 +12,10 @@ jobs:
             - name: AWS SSM Send Command
               uses: peterkimzz/aws-ssm-send-command@1.0.1
               with:
-                  aws-access-key-id: AKIA4N3YU7VSU6OUTO6G
-                  aws-secret-access-key: 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
+                  aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+                  aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
                   aws-region: us-east-1
-                  instance-ids: i-0695f155347c85262
+                  instance-ids: ${{ secrets.INSTANCE_ID }}
                   comment: Deploy the master branch
                   working-directory: /home/ubuntu/personal_websites
                   command: sudo git pull origin master
