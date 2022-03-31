@@ -21,4 +21,5 @@ jobs:
                   #instance-ids: i-0695f155347c85262
                   comment: Deploy the master branch
                   working-directory: /home/ubuntu/personal_websites
-                  command: /bin/sh ./deploy.sh
+                  #command: /bin/sh ./deploy.sh
+                  command: sudo git pull origin master
