@@ -18,4 +18,4 @@ jobs:
                   instance-ids: ${{ secrets.INSTANCE_ID }}
                   comment: Deploy the master branch
                   working-directory: /home/ubuntu/personal_websites
-                  command: sudo git pull origin master
+                  command: /bin/sh ./deploy.sh
