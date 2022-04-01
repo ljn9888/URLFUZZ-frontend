@@ -24,10 +24,10 @@ server {
 
 	# SSL configuration
 	#
-	ssl_certificate     www.example.com.cert;
-    ssl_certificate_key www.example.com.cert;
-	listen 443 ssl default_server;
-	listen [::]:443 ssl default_server;
+	#ssl_certificate     www.example.com.cert;
+    #ssl_certificate_key www.example.com.cert;
+	#listen 443 ssl default_server;
+	#listen [::]:443 ssl default_server;
 	#
 	# Note: You should disable gzip for SSL traffic.
 	# See: https://bugs.debian.org/773332
@@ -47,6 +47,7 @@ server {
 	server_name 3.95.205.193;
 
 	location / {
+		autoindex on;
 		# First attempt to serve request as file, then
 		# as directory, then fall back to displaying a 404.
 		try_files $uri $uri/ =404;
