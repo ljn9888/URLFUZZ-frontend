@@ -23,7 +23,9 @@
             alert('d');
             // $http.post('http://0.0.0.0:8082', inputurl);
             $interval(function() {
-                $http({method :'GET', url: 'http://0.0.0.0:8082'}).
+                $http({method :'POST', url: 'http://0.0.0.0:8082',     headers : {
+                    'Content-Type' : 'application/json'
+                },data: "hehe"}).
                 then(function(response) {
                     if(response.data != $scope.search && response.data != 'Request failed') {
                         $scope.search = response.data ;
@@ -33,7 +35,7 @@
                         result.appendChild(tag);
                     }
               });
-              }, 5);
+              }, 2000);
 
 
 
