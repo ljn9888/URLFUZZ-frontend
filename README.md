@@ -7,8 +7,8 @@ Welcome to use our machine!
 - - -
 
 Website version coming soon, can simple use 
-'''
+```
 git clone https://github.com/ljn9888/URLFUZZ-backend
 python3 fuzz.py <YOUR_URL>
-'''
-right now
+ ```
+right now, thank you!
